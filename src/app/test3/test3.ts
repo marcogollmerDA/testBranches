@@ -9,9 +9,14 @@ import { Component } from '@angular/core';
 export class Test3 {
   constructor() {
     this.sayHello();
+    this.sayBye();
   }
 
   sayHello() {
     console.log('Hello');
+  }
+
+  sayBye() {
+    console.log('Bye');
   }
 }
