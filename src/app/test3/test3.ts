@@ -7,13 +7,18 @@ import { Component } from '@angular/core';
   styleUrl: './test3.scss',
 })
 export class Test3 {
-  name = "Freddy";
+  name = 'Freddy';
 
   constructor() {
     this.sayWorld();
+    this.sayBye();
   }
 
   sayWorld() {
     console.log('Hello World!', this.name);
+  }
+
+  sayBye() {
+    console.log('Bye');
   }
 }
